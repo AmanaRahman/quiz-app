@@ -1,0 +1,37 @@
+{
+    "questions": [
+      {
+        "question": "What is the capital of France?",
+        "option1": "Paris",
+        "option2": "Berlin",
+        "option3": "Madrid",
+        "option4": "London",
+        "correctAnswer": "Paris"
+      },
+      {
+        "question": "What is the capital city of Australia?",
+        "option1": "Sydney",
+        "option2": "Melbourne",
+        "option3": "Brisbane",
+        "option4": "Canberra",
+        "correctAnswer": "Melbourne"
+      },
+      {
+        "question": "Who painted the MONA LISA",
+        "option1": "Michelangelo",
+        "option2": "Leonardo da Vinci",
+        "option3": "Raphael",
+        "option4": "Caravaggio",
+        "correctAnswer": "Leonardo da Vinci"
+      },
+      {
+        "question": "What is the capital of France?",
+        "option1": "Paris",
+        "option2": "Berlin",
+        "option3": "Madrid",
+        "option4": "London",
+        "correctAnswer": "Paris"
+      }
+    ]
+  }
+  

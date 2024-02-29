@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/screens/quiz_screen.dart';
+import 'package:flutter_application_3/screens/qna_screen.dart';
 
+class QuizHomePage extends StatefulWidget {
+  @override
+  State<QuizHomePage> createState() => _QuizHomePageState();
+}
 
-
-class QuizHomePage extends StatelessWidget {
+class _QuizHomePageState extends State<QuizHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       body: Container(
         color: Color.fromARGB(255, 33, 0, 38),
         padding: const EdgeInsets.all(16.0),
@@ -24,8 +26,8 @@ class QuizHomePage extends StatelessWidget {
             SizedBox(height: 20),
             Center(
               child: Container(
-                width: 140, // Set your desired width here
-                height: 50, // Set the height to make it square
+                width: 140,
+                height: 50,
                 child: ElevatedButton(
                   onPressed: () {
                     Navigator.push(
@@ -36,7 +38,7 @@ class QuizHomePage extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color.fromRGBO(182, 82, 200, 1),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10), // Set border radius to 0 for a square shape
+                      borderRadius: BorderRadius.circular(10),
                     ),
                   ),
                   child: Text(
